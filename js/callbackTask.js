@@ -176,4 +176,33 @@
 // supper('Patty');
 // eat('Jon');
 
-// ------------TASK FIVE
+// // ------------TASK FIVE
+
+// function distanceCheck(city,check,far,near) {
+//       const isRecipientAvailable = Math.random()*(10-1)+1 ;
+//       check(city);
+//       if (isRecipientAvailable>5) {
+//        far(city);
+//         return;
+//       }
+
+//       near(city);
+//     }
+    
+//     function distanceCheckNow(city) {
+//       console.log(`We check the distance to ${city}, please wait...`);
+    
+//     }
+    
+//     function distanceIsFar(city) {
+//       console.log(`Your city ${city} is far away.`);
+   
+//     }
+    
+//     function distanceIsNear(city) {
+//       console.log(`Your city ${city} is near.`);
+
+//     }
+    
+//     distanceCheck('Warsaw',distanceCheckNow,distanceIsFar,distanceIsNear);
+//     distanceCheck('Lvov',distanceCheckNow,distanceIsFar,distanceIsNear);
