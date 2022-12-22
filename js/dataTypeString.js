@@ -1,4 +1,4 @@
-const message1="1 followers" + 1 +"followers" +1;
+const message1 = "1 followers" + 1 +"followers" +1;
 console.log(message1);
 
 const years= 10;
@@ -33,4 +33,11 @@ let line2=line.replace("y",'5');
 let line3= line.slice(line.indexOf('i'), line.indexOf('!'));
 console.log(line3);           
 console.log(line);
+
+const string='Hello world!';
+
+console.log(string);
+console.log(string.at(-1));
+console.log(string.at(1));
+console.log(string.charAt(-20))
 

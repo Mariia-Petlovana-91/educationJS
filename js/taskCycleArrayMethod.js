@@ -149,3 +149,106 @@
 // const cardToUpdate='card4';
 // cards.splice(cards.indexOf(cardToInsert),1,cardToUpdate);
 // console.log(cards);
+
+// // ----------TASK TEN
+
+// function calculateProfit(amount, percent, period) {
+//       // write code here
+//     let total=amount;
+    
+//     for (let i=1; i<=period; i+=1){
+//        total+=total*percent/100;
+//     }
+    
+//     const profit= total-amount;
+//     return Number(profit.toFixed(1));
+//     };
+    
+//     console.log(calculateProfit(1000,5,1));
+//     console.log(calculateProfit(12500, 3, 12));
+
+// // -------TASK ELEVEN
+
+// function isWerewolf(target) {
+//       // write code here
+//   const symbols='`!@#$%^&*()-_=+|[]{};:?/.,>< ';
+//   let normalize='';
+//   let reverse='';
+
+// for (let i = 0; i < target.length; i += 1){
+//       if(!symbols.includes(target[i])){          
+//       normalize+=target[i].toLowerCase();
+// }
+//     }
+
+// for (let i = normalize.length-1; i >= 0; i -=1 ){
+//       reverse+=normalize[i];
+// } 
+// return normalize===reverse;
+// }
+//     console.log( isWerewolf('Was it a rat I saw?'));
+//     console.log( isWerewolf('hoMe'));
+//     console.log( isWerewolf('rotator'));
+
+// // ----------TASK TWELVE
+
+// function makeAbbr(words) {
+//       // write code here
+//       let upperWord=words[0];
+
+//      for(let i=0; i<words.length;i+=1){ 
+//        if (words[i]===' '){
+//             let next=i+1
+//             upperWord+=words[next];
+//        }
+//      }
+  
+//      return upperWord.toUpperCase();
+// }
+
+// console.log(makeAbbr('national institute biology'));
+// console.log(makeAbbr('збройні сили України'));
+
+// // -----------TASK THIRTEEN
+
+// // **********METHOD FIRST
+
+// function getSuccessRate(statistic) {
+//       // write code here
+//       let good = '';
+
+//       if ( statistic===''){
+//             return '0';
+//          };
+
+//     for (let i = 0; i < statistic.length; i += 1){
+//        if(statistic[i]==='1'){
+//             good+=statistic[i]
+//        }
+//     }
+
+//     return Math.round(good.length*100/statistic.length); 
+// }
+
+// console.log(getSuccessRate(''));
+// console.log(getSuccessRate('101000001111'));
+
+// // **************METHOD SECOND
+
+// // function getSuccessRate(statistic) {
+// //       // write code here
+// //       let good = '';
+// //       let bad = '';
+
+// //       if ( statistic===''){
+// //             return '0';
+// //          };
+
+// //     for (let i = 0; i < statistic.length; i += 1){
+// //          statistic[i]==='1'?good+=statistic[i]:bad+=statistic[i];
+// //     }
+
+// //     return Math.round(good.length*100/statistic.length); 
+// // }
+// console.log(getSuccessRate(''));
+// console.log(getSuccessRate('101000001111'));

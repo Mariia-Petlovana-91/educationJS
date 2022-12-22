@@ -1,5 +1,5 @@
 
-const array=['red','blue','yellow'];
+const array=['red','blue','yellow','blue'];
 const array2=['gold','nice','true','false'];
 console.log(array.indexOf('blue'));
 
