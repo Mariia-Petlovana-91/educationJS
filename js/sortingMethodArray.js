@@ -209,9 +209,32 @@ const teaDepartment=[
 
 // // console.log(statistics)
 
+// function feast(beast, dish) {
+//   //your function here
+// for (let i = 0; i < beast.length; i += 1){
+//   for (let i = 0; i <dish.length; i += 1){
+// if(beast[0]===dish[0] && beast[beast.length-1]===dish[dish.length-1]){
+//   return true
+// }
+// return false;
+//   }
+// }
+   
+
+//   }
+
+// console.log(feast("great blue heron", "garlic naan"));
 
 
+function digitize(n) {
+  //code here
+  const ar = [n];
+  const a =[]
+for (let i = ar; i >=ar; i += 1){
+a.push(i)
+}
+return a;
+}
 
-
-
-    
+  console.log(digitize(12345));
+ 

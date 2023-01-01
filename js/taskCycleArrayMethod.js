@@ -252,3 +252,19 @@
 // // }
 // console.log(getSuccessRate(''));
 // console.log(getSuccessRate('101000001111'));
+
+// // ------TASK FOURTEEN
+
+// function scrollingText(word) {
+//       // write code here
+//     const array=[];
+     
+    
+//    for (let i = 0; i < word.length; i++) {
+//     array.push((word.slice(i)+word.slice(0,i)).toUpperCase())
+      
+//    }
+//   return array;
+//     }
+
+//     console.log(scrollingText('robot'));
