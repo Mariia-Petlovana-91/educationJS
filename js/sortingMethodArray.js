@@ -226,15 +226,3 @@ const teaDepartment=[
 // console.log(feast("great blue heron", "garlic naan"));
 
 
-function digitize(n) {
-  //code here
-  const ar = [n];
-  const a =[]
-for (let i = ar; i >=ar; i += 1){
-a.push(i)
-}
-return a;
-}
-
-  console.log(digitize(12345));
- 
