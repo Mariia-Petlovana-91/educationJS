@@ -1,0 +1,151 @@
+.img {
+	background-color: rgba(245, 222, 244, 0.295);
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+
+.img-list, .img-navList {
+	display: flex;
+	justify-content: center;
+
+}
+
+.img-item {
+	margin-right: 10px;
+	border: solid 2px rgba(210, 180, 238, 0.904);
+	;
+}
+
+.img-navItem{
+	margin-right: 5px;
+	
+}
+
+.img-navBtn{
+	cursor: grab;
+	background-color: rgba(97, 31, 158, 0.37);
+      color: rgb(23, 2, 27);
+	border: solid 1px rgb(23, 2, 27);
+	border-radius: 4px;
+}
+
+.img-navBtn:hover{
+	border: solid 1px rgba(238, 220, 240);
+	color:rgba(238, 220, 240);
+	color: 255,255,255;
+}
+
+.colorize{
+	
+	background-color: rgba(136, 235, 235, 0.377);
+}
+
+.colorize-btn{
+	width: 100%;
+	height: 40px;
+	background-color: rgb(47, 233, 233);
+	cursor: pointer;
+	border: none;
+	margin-bottom: 30px;
+
+}
+
+.colorize-btn__last{
+	margin-bottom: 0;
+}
+
+.colorize-btn:hover{
+	background-color: rgb(18, 197, 197);
+}
+
+.colorize-main{
+	
+	display: flex;
+	justify-content: space-around;
+	background-color:rgba(136, 235, 235, 0.377);
+	margin-bottom: 30px;
+	
+}
+
+.colorize-el{
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+}
+
+.text{
+	background-color: rgba(251, 255, 0, 0.651);
+	margin: 20px 0px 20px 0px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text-main{
+	
+	padding: 5px;
+}
+
+.text-title{
+	font-weight: bold;
+	font-size: medium;
+}
+
+.text-descript{
+	padding: 5px;
+	background-color: rgba(0, 0, 255, 0.678);
+	font-weight: normal;
+}
+
+.text-price{
+	color: red;
+	font-weight: bold;
+	font-size: small;
+}
+
+.text-br{
+	color: black;
+}
+
+table, thead, th, td{
+	border: solid 1px black;
+}
+
+.table{
+background-color: rgba(220, 20, 60, 0.247);
+
+}
+
+.table-btnContainer{
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+padding: 10px;
+}
+
+.table-btn{
+	padding: 8px;
+	border-radius: 50px;
+	border: none;
+	background-color:rgba(220, 20, 60, 0.582)
+	
+}
+
+.table-btn:hover, .table-btn:focus{
+border: none;
+background-color: rgba(32, 211, 32, 0.466);
+}
+
+.table-head{
+	margin-bottom: 10px;
+}
+
+.table-title{
+padding: 5px 2px 5px 2px;
+background-color: rgba(220, 20, 60, 0.582);
+width: 100px;
+}
+
+
+.table-date{
+width: 100px;
+}

@@ -1,0 +1,36 @@
+.el1 {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	margin-right: 10px;
+	width: 120px;
+	height: 35px;
+	background-color: rgba(10, 245, 10, 0.514);
+	font-weight: bold;
+	font-size: medium;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	border: none;
+	cursor:help;
+}
+.btn:hover , .btn:focus {
+	color: rgb(253, 60, 60);
+}
+
+.text {
+
+	margin-right: 10px;
+	width: 120px;
+	height: 35px;
+	background-color: rgb(253, 60, 60, 0.514);
+	text-align: center;
+
+}
+
+
+p {
+	margin: 0;
+	margin-top: 3px;
+	font-size: 25px;
+}
