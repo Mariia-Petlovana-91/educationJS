@@ -1,4 +1,9 @@
-const fnA= function(){
+
+
+
+
+
+const fnA = function () {
 console.log('this in fnA->' , this);
 }
 

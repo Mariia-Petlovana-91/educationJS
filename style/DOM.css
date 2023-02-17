@@ -107,6 +107,7 @@
 }
 
 table, thead, th, td{
+	text-align: center;
 	border: solid 1px black;
 }
 
@@ -135,17 +136,42 @@ border: none;
 background-color: rgba(32, 211, 32, 0.466);
 }
 
+.table-main{
+	margin: auto;
+}
+
 .table-head{
 	margin-bottom: 10px;
 }
 
-.table-title{
-padding: 5px 2px 5px 2px;
-background-color: rgba(220, 20, 60, 0.582);
-width: 100px;
+.table-btn{
+	padding: 3px 0px 3px 0px;
+      cursor: pointer;
+	background-color: rgba(220, 20, 60, 0.582);
+	width: 100px;
 }
 
+.table-btn__title{
+	width: 130px;
+	height: 32px;
+	padding: 0;
+	cursor: pointer;
+	border: none;
+	background-color: rgba(220, 20, 60, 0.507);
+}
+
+.table-btn__title:hover,
+.table-btn__title:focus {
+	border: none;
+	background-color: rgba(32, 211, 32, 0.466);
+}
+
+.table-title{
+padding: 0;
+background-color: rgba(220, 20, 60, 0.582);
+
+}
 
 .table-date{
-width: 100px;
+
 }

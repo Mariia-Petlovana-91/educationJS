@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form</title>
+	<link rel="stylesheet" href="/style/style.css">
+	<link rel="stylesheet" href="/style/form.css">
+</head>
+<body>
+	<form class="form js-form" autocomplete="off">
+	
+		<label class="form_mainLabel">
+			<input class="" name="email" type="email">
+		</label>
+		<label class="form_mainLabel">
+			<input class="" name="password" type="password">
+		</label>
+
+		<div class="form_radio">	
+		      <i class="form_textRadio">Виберіть тип підписки :</i>
+		      <label class="form_labelRadio">free
+			      <input class="" type="radio" name="subscription" value="free">
+		      </label>
+		      <label class="form_labelRadio">pro
+			      <input class="" type="radio" name="subscription" value="pro">
+		      </label>
+		      <label class="form_labelRadio">vip
+			      <input class="" type="radio" name="subscription" value="vip">
+		      </label>
+		</div>
+      
+		<button class="form_btn" type="submit">Надіслати форму</button>
+      </form>
+
+
+	<div class="input">
+			<label class="input_label">
+				<input class="js-input" name="text" type="text">
+			</label>
+			<label class="input_labelChackbox">
+				<p><strong>Даю згоду на оброюку даних</strong></p>
+				<input class="input_inputChacebox js-chacebox" type="checkbox" name="" value="">
+			</label>
+			<button class="input_btn js-btn" type="submit" disabled>Зареєструватися як <span>Anonimus</span></button>
+		</div>
+	</div>
+
+	<script src="/js/formData.js" type="module"></script>
+	<script src="/js/formInput.js" type="module"></script>
+</bod>
+</html>

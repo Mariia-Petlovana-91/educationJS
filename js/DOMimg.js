@@ -6,6 +6,14 @@ const element =
 	height: 100,
 };
 
+const element1 =
+{
+	src: '/img/animals-sobaka-trava-sidet-visunutii_yazik-146756.jpeg',
+	alt: 'big dog',
+	width: 150,
+	height: 100,
+};
+
 const makeElImage =  ({ src, alt, width, height } = {})=> {
 	const image = document.createElement('img');
 	
@@ -23,6 +31,7 @@ const makeElImage =  ({ src, alt, width, height } = {})=> {
 };
 	
 const createImg = makeElImage(element);
+const createImg1 = makeElImage(element1);
 const imgListRef = document.querySelector('.js-img');
 const navImgBtnRef = document.querySelectorAll('.js-nav button');
 
@@ -31,5 +40,9 @@ navImgBtnRef[0].addEventListener('click', function () {
 });
 
 navImgBtnRef[1].addEventListener('click', function () {
-	createImg.remove();
+	createImg.remove()||createImg1.remove();
+});
+
+navImgBtnRef[2].addEventListener('click', function () {
+	imgListRef.appendChild(createImg1);
 });

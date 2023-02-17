@@ -23,6 +23,7 @@
 		<ul class="img-navList js-nav">
 			<li class="img-navItem"><button type="button" class="img-navBtn" data-action="add">Додати</button></li>
 			<li class="img-navItem"><button type="button" class="img-navBtn" data-action="remove">Видалити</button></li>
+			<li class="img-navItem"><button type="button" class="img-navBtn" data-action="add">Додати ще</button></li>
 		</ul>
 	</div>
 
@@ -39,17 +40,16 @@
                    <button type="button" class="table-btn bth" data-action="open">Переглянути дані</button>
                    <button type="button" class="table-btn" data-action="close">Закрити дані</button>
 		</div>
-		<table>
+		<table class="table-main js-table">
 			<caption class="table-head">Перелік працівників</caption>
-			<thead>
+			<thead class="js-titleMain" >
 				<tr class="table-row">
-					<th class="table-title">Прізвище та ім'я</th>
-					<th class="table-title">Вік</th>
-					<th class="table-title">Місце проживання</th>
-					<th class="table-title">Зарплата</th>
-					<th class="table-title">Номер карти</th>
+					<th class="table-title"><button type="button" class="table-btn__title" data-action="name">Прізвище та ім'я</button></th>
+					<th class="table-title"><button type="button" class="table-btn__title" data-action="year">Вік</button></th>
+					<th class="table-title"><button type="button" class="table-btn__title" data-action="city">Місце проживання</button></th>
+					<th class="table-title"><button type="button" class="table-btn__title" data-action="salary">Зарплата</button></th>
+					<th class="table-title"><button type="button" class="table-btn__title" data-action="score">Номер карти</button></th>
 				</tr>
-				<tr>
 			</thead>
 		</table>
 		
@@ -58,6 +58,6 @@
 	<script src="/js/DOMimg.js" type="module"></script>
 	<script src="/js/DOMcolorize.js" type="module"></script>
 	<script src="/js/DOMtext.js" type="module"></script>
-	<script src="/js/DOMstring.js" type="module"></script>
+	<script src="/js/DOMtable.js" type="module"></script>
 </body>
 </html>
