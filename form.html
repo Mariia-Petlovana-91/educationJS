@@ -5,10 +5,19 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Form</title>
-	<link rel="stylesheet" href="/style/style.css">
-	<link rel="stylesheet" href="/style/form.css">
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="./style/form.css">
 </head>
 <body>
+<ul class="navigation-list">
+  <li class="navigation-item"><a class="navigation-link " href="/index.html">Menu</a></li>
+  <li class="navigation-item"><a class="navigation-link" href="/DOM.html">DOM</a></li>
+  <li class="navigation-item"><a class="navigation-link" href="/this.html">This</a></li>
+  <li class="navigation-item"><a class="navigation-link" href="/plagin.html">Plagin</a></li>
+  <li class="navigation-item"><a class="navigation-link navigation-link--current" href="/form.html">Form</a></li>
+<li class="navigation-item"><a class="navigation-link" href="/keayboardEvent.html">Keayboard Event</a></li>
+</ul>
+<!-- form -->
 	<form class="form js-form" autocomplete="off">
 	
 		<label class="form_mainLabel">
@@ -34,7 +43,7 @@
 		<button class="form_btn" type="submit">Надіслати форму</button>
       </form>
 
-
+<!-- example desabled -->
 	<div class="input">
 			<label class="input_label">
 				<input class="js-input" name="text" type="text">
@@ -46,8 +55,26 @@
 			<button class="input_btn js-btn" type="submit" disabled>Зареєструватися як <span>Anonimus</span></button>
 		</div>
 	</div>
+<!-- example select -->
+<div  class="js-color">
+<p>
+	Selected option text: <span class="text-output">none</span>
+<p>
+<p>
+	Selected option value: <span class="value-output">none</span>
+<p>
 
-	<script src="/js/formData.js" type="module"></script>
-	<script src="/js/formInput.js" type="module"></script>
+	<select class="color-select">
+		<option value="">Select a color</option>
+		<option value="#FF0000">Red</option>
+		<option value="#00FF00">Green</option>
+		<option value="#0000FF">Blue</option>
+		<option value="#FFDF00">Yellow</option>
+	</select>
+</div>
+
+	<script src="./js/formData.js" type="module"></script>
+	<script src="./js/formInput.js" type="module"></script>
+	<script src="./js/formSelect.js" type="module"></script>
 </bod>
 </html>
