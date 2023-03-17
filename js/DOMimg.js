@@ -1,6 +1,6 @@
 const element =
 {
-	src: '/img/animals-kotenok-trava-sidet-ozhidanie-malish-138676.jpeg',
+	src: './img/animals-kotenok-trava-sidet-ozhidanie-malish-138676.jpeg',
 	alt: 'kitten',
 	width: 150,
 	height: 100,
@@ -8,7 +8,7 @@ const element =
 
 const element1 =
 {
-	src: '/img/animals-sobaka-trava-sidet-visunutii_yazik-146756.jpeg',
+	src: './img/animals-sobaka-trava-sidet-visunutii_yazik-146756.jpeg',
 	alt: 'big dog',
 	width: 150,
 	height: 100,
