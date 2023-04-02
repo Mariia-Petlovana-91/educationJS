@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Chattering events</title>
+	<link rel="stylesheet" href="./style/style.css">
+	<link rel="stylesheet" href="./style/chatteringEvents.css">
+</head>
+<body>
+	<nav>
+		<ul class="navigation-list main-nav">
+			<li class="navigation-item"><a class="navigation-link" href="./index.html">Menu</a></li>
+			<li class="navigation-item"><a class="navigation-link" href="./DOM.html">DOM</a></li>
+			<li class="navigation-item"><a class="navigation-link" href="./this.html">This</a></li>
+			<li class="navigation-item"><a class="navigation-link" href="./plagin.html">Plagin</a></li>
+			<li class="navigation-item"><a class="navigation-link" href="./form.html">Form</a></li>
+			<li class="navigation-item"><a class="navigation-link" href="./keayboardEvent.html">Keayboard Event</a></li>
+			<li class="navigation-item"><a class="navigation-link" href="./delegationOfEvents.html">Delegation of	Events</a></li>
+			<li class="navigation-item"><a class="navigation-link navigation-link--current" href="./chatteringEvents.html">Chattering events</a></li>
+		</ul>
+	</nav>
+	<!-- MOUSEMUVE EVENTS throttle -->
+	<div class="text">
+        <p class="text__el" data-value="text">The number of mouse events : 0.</p>
+	  <div class="text__btn-el" data-value="button">
+              <button class="text__btn" type="button" data-value="START">START</button>
+              <button class="text__btn" type="button" data-value="STOP">STOP</button>
+	  </div>
+	</div>
+
+	<!-- MOUSEMUVE EVENTS debounce -->
+
+<div class="deb">
+	<p class="deb__name"><span class="deb__name-el">Enter a name :</span> Viktor Bars,Oleg Rapto,Mykola Sporny,Pavlo Bersa,Viktor Bebro.</p>
+	<div class="deb__el js-el1">
+		<input class="deb__input" type="text" name="name" data-value="input1">
+		<p class="deb__text" data-value="text1">Entered characters:</p>
+	</div>
+	
+	<div class="deb__el js-el2">
+		<input class="deb__input" type="text" name="name" data-value="input2">
+		<p class="deb__text" data-value="text2">Entered characters from debounce:</p>
+	</div>
+</div>
+
+<!-- FILTER -->
+
+<div class="filter">
+	<label class="filter__label">
+Make a choice :
+		<input type="text" class="filter__input js-input-filter">
+	</label>
+	<ul class="filter__list js-list-filter"></ul>
+
+</div>
+
+<!-- LOADING LAZY -->
+<ul class="lazy">
+	<li>
+		<img
+		 loading="lazy" 
+		 src="./img/imagesKat10.jpg"
+		 alt="little kitten"
+		 width="800px"
+		 height="500px"
+		 >
+		<p class="lazi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto explicabo, consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos iure maxime totam autem, ab dicta!
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit, modi dolor nisi voluptatum dicta ad! Eius, fugit cupiditate. Dolorem reiciendis libero dolor aliquid ullam doloremque vero, temporibus officia dignissimos.
+		</p>
+	</li>
+	<li>
+		<img
+		 loading="lazy" 
+		 src="./img/imagesKat2.jpeg"
+		 alt="little kitten"
+		 width="800px"
+		 height="500px">
+		<p class="lazi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos iure
+			maxime totam autem, ab dicta!
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntur optio in molestiae. Similique voluptatum et provident, iusto minima inventore repellat tempore eveniet ipsa numquam, nostrum placeat quam corporis recusandae.</p>
+	</li>
+	<li>
+		<img
+		 loading="lazy" 
+		 src="./img/imagesKat3.jpeg"
+		 alt="little kitten"
+		 width="800px"
+		 height="500px">
+		<p class="lazi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos iure
+			maxime totam autem, ab dicta!
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur officiis, doloribus aperiam pariatur quis enim! Dolor quia quis quaerat explicabo consequatur vero dignissimos hic nesciunt ratione odit? Eligendi, sint!</p>
+	</li>
+	<li>
+		<img
+		 loading="lazy" 
+		 src="./img/imagesKat4.jpeg"
+		 alt="little kitten"
+		 width="800px"
+		 height="500px">
+		<p class="lazi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos iure
+			maxime totam autem, ab dicta!
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis distinctio dicta dolor est provident odit! Minus, nihil animi. Unde iusto quae vel obcaecati, earum esse corrupti repudiandae at tempora.</p>
+	</li>
+	<li>
+		<img
+		 loading="lazy" 
+		 src="./img/imagesKat5.jpeg"
+		 alt="little kitten"
+		 width="800px"
+		 height="500px">
+		<p class="lazi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos iure
+			maxime totam autem, ab dicta!
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sunt aspernatur id reprehenderit voluptas tempora exercitationem, repellat animi. Quaerat praesentium voluptas repellendus autem, maiores animi mollitia fuga ea cumque repellat.</p>
+	</li>
+	<li>
+		<img
+		 loading="lazy" 
+		 src="./img/imagesKat6.jpeg"
+		 alt="little kitten"
+		 width="800px"
+		 height="500px">
+		<p class="lazi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos iure
+			maxime totam autem, ab dicta!
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ipsum atque officiis laborum. Molestiae error vitae fugit veritatis quod, minus maiores, magnam deleniti, blanditiis nesciunt saepe vel iste veniam. Aspernatur.</p>
+	</li>
+	<li>
+		<img
+		 loading="lazy" 
+		 src="./img/imagesKat7.jpeg"
+		 alt="little kitten"
+		 width="800px"
+		 height="500px">
+		<p class="lazi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos iure
+			maxime totam autem, ab dicta!
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi incidunt nam eum rerum tenetur commodi ullam veritatis quaerat fuga quae, reprehenderit est laborum recusandae. Corrupti amet similique neque praesentium sapiente.</p>
+	</li>
+	<li>
+		<img
+		 loading="lazy" 
+		 src="./img/imagesKat8.jpeg"
+		 alt="little kitten"
+		 width="800px"
+		 height="500px">
+		<p class="lazi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos iure
+			maxime totam autem, ab dicta!
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facere corporis, quidem incidunt modi ab! Corrupti illo reiciendis quae veritatis pariatur nihil beatae, quaerat incidunt rem, adipisci quibusdam voluptates maxime.</p>
+	</li>
+	<li>
+		<img
+		 loading="lazy" 
+		 src="./img/imagesKat9.jpeg"
+		 alt="little kitten"
+		 width="800px"
+		 height="500px">
+		<p class="lazi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos iure
+			maxime totam autem, ab dicta!
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium nobis alias, assumenda mollitia quo incidunt velit fuga commodi molestias nesciunt neque iusto itaque nulla minima at dolor. Quidem, eum qui!</p>
+	</li>
+	<li>
+		<img
+		loading="lazy"  
+		 src="./img/imagesKat1.jpg"
+		 alt="little kitten"
+		 width="800px"
+		 height="500px">
+		<p class="lazi__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos iure
+			maxime totam autem, ab dicta!
+		Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus maiores eaque modi tempore voluptate quibusdam iusto perferendis, eligendi, beatae consequuntur dolore explicabo debitis aliquam, officia optio? Sequi deleniti molestiae quisquam.</p>
+	</li>
+</ul>
+
+<!-- LAZYSIZES -->
+
+<ul class="lazysizes">
+	<li>
+		<img 
+		 loading="lazy"
+		 class="lazyload"
+		 data-src="./img/imagesKat10.jpg" alt="little kitten" width="800px" height="500px">
+		<p class="lazy__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto
+			explicabo, consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione
+			dignissimos iure maxime totam autem, ab dicta!
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus sit, modi dolor nisi voluptatum
+			dicta ad! Eius, fugit cupiditate. Dolorem reiciendis libero dolor aliquid ullam doloremque vero,
+			temporibus officia dignissimos.
+		</p>
+	</li>
+	<li>
+		<img 
+		 loading="lazy"
+		 class="lazyload"
+		 data-src="./img/imagesKat2.jpeg" alt="little kitten" width="800px" height="500px">
+		<p class="lazy__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto
+			explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos
+			iure
+			maxime totam autem, ab dicta!
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet consequuntur optio in molestiae.
+			Similique voluptatum et provident, iusto minima inventore repellat tempore eveniet ipsa numquam,
+			nostrum placeat quam corporis recusandae.</p>
+	</li>
+	<li>
+		<img 
+		 loading="lazy"
+		 class="lazyload"
+		 data-src="./img/imagesKat3.jpeg" alt="little kitten" width="800px" height="500px">
+		<p class="lazy__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto
+			explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos
+			iure
+			maxime totam autem, ab dicta!
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere consectetur officiis, doloribus
+			aperiam pariatur quis enim! Dolor quia quis quaerat explicabo consequatur vero dignissimos hic
+			nesciunt ratione odit? Eligendi, sint!</p>
+	</li>
+	<li>
+		<img
+		 loading="lazy"
+		 class="lazyload" 
+		 data-src="./img/imagesKat4.jpeg" alt="little kitten" width="800px" height="500px">
+		<p class="lazy__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto
+			explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos
+			iure
+			maxime totam autem, ab dicta!
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cupiditate corporis distinctio dicta dolor
+			est provident odit! Minus, nihil animi. Unde iusto quae vel obcaecati, earum esse corrupti repudiandae
+			at tempora.</p>
+	</li>
+	<li>
+		<img 
+		 loading="lazy"
+		 class="lazyload"
+		 data-src="./img/imagesKat5.jpeg" alt="little kitten" width="800px" height="500px">
+		<p class="lazy__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto
+			explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos
+			iure
+			maxime totam autem, ab dicta!
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sunt aspernatur id reprehenderit
+			voluptas tempora exercitationem, repellat animi. Quaerat praesentium voluptas repellendus autem,
+			maiores animi mollitia fuga ea cumque repellat.</p>
+	</li>
+	<li>
+		<img
+		 loading="lazy"
+		 class="lazyload" 
+		 data-src="./img/imagesKat6.jpeg" alt="little kitten" width="800px" height="500px">
+		<p class="lazy__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto
+			explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos
+			iure
+			maxime totam autem, ab dicta!
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ipsum atque officiis laborum. Molestiae
+			error vitae fugit veritatis quod, minus maiores, magnam deleniti, blanditiis nesciunt saepe vel iste
+			veniam. Aspernatur.</p>
+	</li>
+	<li>
+		<img 
+		 loading="lazy"
+		 class="lazyload"
+		 data-src="./img/imagesKat7.jpeg" alt="little kitten" width="800px" height="500px">
+		<p class="lazy__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto
+			explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos
+			iure
+			maxime totam autem, ab dicta!
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi incidunt nam eum rerum tenetur commodi
+			ullam veritatis quaerat fuga quae, reprehenderit est laborum recusandae. Corrupti amet similique neque
+			praesentium sapiente.</p>
+	</li>
+	<li>
+		<img 
+		 loading="lazy"
+		 class="lazyload"
+		 data-src="./img/imagesKat8.jpeg" alt="little kitten" width="800px" height="500px">
+		<p class="lazy__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto
+			explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos
+			iure
+			maxime totam autem, ab dicta!
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat facere corporis, quidem incidunt
+			modi ab! Corrupti illo reiciendis quae veritatis pariatur nihil beatae, quaerat incidunt rem, adipisci
+			quibusdam voluptates maxime.</p>
+	</li>
+	<li>
+		<img 
+		 loading="lazy"
+		 class="lazyload"
+		 data-src="./img/imagesKat9.jpeg" alt="little kitten" width="800px" height="500px">
+		<p class="lazy__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto
+			explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos
+			iure
+			maxime totam autem, ab dicta!
+			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium nobis alias, assumenda mollitia
+			quo incidunt velit fuga commodi molestias nesciunt neque iusto itaque nulla minima at dolor. Quidem,
+			eum qui!</p>
+	</li>
+	<li>
+		<img
+		loading="lazy"
+		 class="lazyload"
+		 data-src="./img/imagesKat1.jpg" alt="little kitten" width="800px" height="500px">
+		<p class="lazy__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit architecto
+			explicabo,
+			consequatur aut dicta similique eius tenetur, doloremque eos rerum totam? Velit ratione dignissimos
+			iure
+			maxime totam autem, ab dicta!
+			Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus maiores eaque modi tempore voluptate
+			quibusdam iusto perferendis, eligendi, beatae consequuntur dolore explicabo debitis aliquam, officia
+			optio? Sequi deleniti molestiae quisquam.</p>
+	</li>
+</ul>
+	<script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+	<script type="module" src="./js/chatteringEvents1.js"></script>
+	<script type="module" src="./js/chatteringEvents2.js"></script>
+	<script type="module" src="./js/chatteringEvents3.js"></script>
+	<script type="module" src="./js/loadingLazy.js"></script>
+	<script type="module" src="./js/lazysizes.js"></script>
+</body> 
+</html>

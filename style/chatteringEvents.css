@@ -1,0 +1,153 @@
+.navigation-list{
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+.text{
+	background:linear-gradient(to bottom right,red,blue, yellow, rgb(250, 75, 104), green);
+	background-repeat: no-repeat;
+	padding: 20px 10px 20px 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 30px;
+}
+
+.text__el{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	margin: 0px 0px 10px 0px;
+}
+
+.text__btn{
+	background-color: rgb(72, 233, 233);
+	width: 100px;
+	height: 40px;
+}
+
+.deb{
+	background: radial-gradient(at 0% 30%, rgba(51, 51, 240), rgba(87, 7, 87, 0.87) 40%, rgba(7, 119, 7, 0.836)50%);
+	background-repeat: no-repeat;
+	padding: 30px 10px 30px 10px;
+	margin-bottom: 30px;
+}
+
+.deb__name{
+      font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+.deb__name-el{font-size: 40px}
+
+.deb__input{
+	width: 200px;
+	height: 30px;
+}
+
+.deb__text{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+.deb__create{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 24px;
+}
+
+.filter{
+	background: radial-gradient(at 50%, rgb(158, 240, 51)20%, rgba(243, 102, 8, 0.87) 40%, rgba(243, 13, 13, 0.836)40%,rgba(107, 31, 31, 0.685)60%);
+	background-repeat: no-repeat;
+	padding: 30px 10px 30px 10px;
+	margin-bottom: 30px;
+
+	/* display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center; */
+
+
+}
+
+.filter__label{
+      font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+}
+
+.filter__input{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	width: 250px;
+	height: 30px;
+	border: 1px solid blue;
+	margin: auto;
+}
+
+.filter__list{
+	margin: 0px;
+	font-family: 'Times New Roman', Times, serif;
+      font-size: 25px;
+}
+
+.filter__item{
+	padding: 5px;
+}
+
+.lazy{
+background: radial-gradient(circle at 50% 0,
+		rgba(255, 0, 0, .5),
+		rgba(255, 0, 0, 0) 70.71%),
+	radial-gradient(circle at 6.7% 75%,
+		rgba(0, 0, 255, .5),
+		rgba(0, 0, 255, 0) 70.71%);
+padding-top: 20px;
+padding-bottom: 20px;
+margin-bottom: 30px;
+}
+
+img{
+	transition: all 500ms linear 1000ms;
+      transform: translateX(-50%);
+      opacity: 0;
+      width: 800px;
+      height: 500px;
+      object-fit: cover;
+}
+
+.lazi__img-load {
+	transform: translateX(0);
+	opacity: 1;
+}
+
+.lazi__text{
+	width: 800px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	background: conic-gradient(at 0% 50%, rgb(255, 0, 85) 20%,
+ yellow 30%, #1e90ff 10%);
+	
+}
+
+.lazysizes{
+	background: conic-gradient(at 0% 50%, rgb(255, 0, 85) 5%,
+        yellow 40%, #1e90ff 10%);
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+
+}
+
+.lazy__text{
+	width: 800px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	background: radial-gradient(circle at 50% 0,
+		rgba(255, 0, 0, .5),
+		rgba(255, 0, 0, 0) 70.71%),
+	   radial-gradient(circle at 6.7% 75%,
+		rgba(0, 0, 255, .5),
+		rgba(0, 0, 255, 0) 70.71%),
+		radial-gradient(circle at 93.3% 75%,
+		rgba(0,255,0,.5),
+		rgba(0,255,0,0) 70.71%) beige;
+		
+}
