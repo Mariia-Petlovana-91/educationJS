@@ -58,6 +58,22 @@ a {
 	color: rgb(255, 1, 1)
 }
 
+.nav-part{
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+}
+
+.nav-part>a{
+	color: rgb(9, 54, 9);
+	font-size: 50px;
+}
+
+.nav-part>a:hover,
+.nav-part>a:focus{
+	color: red;
+	font-size: 70px;
+}
+
 .js-one{
 	width: 300px;
 	height: 300px;
